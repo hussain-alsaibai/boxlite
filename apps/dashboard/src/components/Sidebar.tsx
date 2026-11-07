@@ -57,8 +57,8 @@ interface NavItem {
 // may see is decided in the page, not here.
 const PRIMARY_NAV_ITEMS: NavItem[] = [
   { label: 'Boxes', path: RoutePath.BOXES },
-  { label: 'Images', path: RoutePath.IMAGES },
   { label: 'CI', path: RoutePath.CI },
+  { label: 'Images', path: RoutePath.IMAGES },
   { label: 'Volumes', path: RoutePath.VOLUMES },
   { label: 'Domains', path: RoutePath.DOMAINS },
   { label: 'Billing', path: RoutePath.BILLING },
